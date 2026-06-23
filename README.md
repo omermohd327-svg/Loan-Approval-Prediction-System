@@ -138,7 +138,7 @@ Applicant income, credit score, DTI ratio, and savings all show meaningful diffe
 
 ## Data Preprocessing
 
-- **Missing values** handled using `SimpleImputer` — mean strategy for numerical columns, most frequent strategy for categorical columns
+- **Missing values** handled using `SimpleImputer`  mean strategy for numerical columns, most frequent strategy for categorical columns
 - **Label Encoding** applied to `Education_Level` and `Loan_Approved`
 - **One-Hot Encoding** applied to `Employment_Status`, `Marital_Status`, `Loan_Purpose`, `Property_Area`, `Gender`, and `Employer_Category`
 - **StandardScaler** used to scale features before model training
@@ -173,7 +173,7 @@ predictions = model.predict(X_test_scaled)
 
 ## Key Learnings
 
-- Proper imputation strategy matters — using mean for numerical and most frequent for categorical avoids data leakage
+- Proper imputation strategy matters using mean for numerical and most frequent for categorical avoids data leakage
 - Fitting the scaler only on training data and transforming test data separately prevents information leakage
 - Using `drop="first"` in OneHotEncoder avoids the dummy variable trap
 - Comparing multiple models reveals trade-offs between accuracy, precision, and recall
@@ -183,4 +183,4 @@ predictions = model.predict(X_test_scaled)
 
 ## Conclusion
 
-This project demonstrates a complete machine learning pipeline for a binary classification problem. Starting from raw data, the notebook walks through cleaning, visualization, feature engineering, model training, and evaluation — producing four saved models ready for deployment or further tuning.
+This project demonstrates a complete machine learning pipeline for a binary classification problem. Starting from raw data, the notebook walks through cleaning, visualization, feature engineering, model training, and evaluation producing four saved models ready for deployment or further tuning.
