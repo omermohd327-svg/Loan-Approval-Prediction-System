@@ -151,12 +151,10 @@ Four models were trained and evaluated on the same train/test split (80/20).
 
 | Model | Accuracy | Precision | Recall | F1 Score |
 |---|---|---|---|---|
-| Logistic Regression | — | — | — | — |
-| Naive Bayes | — | — | — | — |
-| KNN (k=13) | — | — | — | — |
-| XGBoost | 93% | 84.06% | 95.08% | 89.23% |
-
-> **Note:** Fill in Logistic Regression, Naive Bayes, and KNN metrics after running the notebook.
+| Logistic Regression | 86.50 | 78.33 | 77.5 | 77.69 |
+| Naive Bayes | 86.50 | 80.36 | 73.77 | 76.92 |
+| KNN (k=13) | 87.90 | 73.17 | 49.18 | 58.82 |
+| XGBoost | 93 | 84.06 | 95.08 | 89.23 |
 
 ---
 
