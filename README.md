@@ -92,7 +92,7 @@ Loan-Approval-Prediction-System/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/Loan-Approval-Prediction-System.git
+git clone https://github.com/omermohd327-svg/Loan-Approval-Prediction-System.git
 cd Loan-Approval-Prediction-System
 ```
 
